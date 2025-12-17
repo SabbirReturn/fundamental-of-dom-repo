@@ -14,3 +14,12 @@ for(let place_name of places_name){
     place_name.innerText = ' Kushtia'
 }
 
+let fruitsLiCollections = document.querySelectorAll(' #Fruits-conteiner li');
+for(let fruitsLiCollection of fruitsLiCollections){
+    console.log(fruitsLiCollection.innerText);
+}
+
+let fruitsLi = document.querySelector('#Fruits-conteiner li');
+console.log(fruitsLi.innerText);
+
+
