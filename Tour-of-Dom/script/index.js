@@ -19,7 +19,8 @@ for(let fruitsLiCollection of fruitsLiCollections){
     console.log(fruitsLiCollection.innerText);
 }
 
+// let fruitsLi = document.querySelector('#Fruits-conteiner li');
+// console.log(fruitsLi.innerText);
 let fruitsLi = document.querySelector('#Fruits-conteiner li');
 console.log(fruitsLi.innerText);
-
 
