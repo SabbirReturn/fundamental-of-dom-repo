@@ -21,6 +21,9 @@ for(let fruitsLiCollection of fruitsLiCollections){
 
 // let fruitsLi = document.querySelector('#Fruits-conteiner li');
 // console.log(fruitsLi.innerText);
+// let fruitsLi = document.querySelector('#Fruits-conteiner li');
+// console.log(fruitsLi.innerText);
 let fruitsLi = document.querySelector('#Fruits-conteiner li');
 console.log(fruitsLi.innerText);
+
 
