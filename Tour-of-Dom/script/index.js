@@ -28,4 +28,15 @@ for(let fruitsLiCollection of fruitsLiCollections){
 let fruitsLi = document.querySelector('#Fruits-conteiner li');
 console.log(fruitsLi.innerText);
 
+let sectionConteiner = document.querySelectorAll('section');
+for(let conteiner of sectionConteiner){
+    conteiner.style.border = '2px solid red';
+    conteiner.style.borderRadius = ' 10px'
+    conteiner.style.marginBottom = '5px';
+    conteiner.style.backgroundColor = 'lightgray'
+}
+
+let placeTitle = document.getElementById('places-title');
+placeTitle.classList.add('align')
+placeTitle.classList.remove('align')
 
