@@ -30,3 +30,23 @@ for(let li of liIteam){
     // li.style.border = '2px solid red'
 }
 section.style.border = '2px solid red'
+
+let createDressSection = document.createElement('section');
+createDressSection.innerHTML = `
+<h1>Choose dress</h1>
+    <ul>
+        <li>T-shirt</li>
+        <li>Pant</li>
+        <li>Jacket</li>
+        <li>Hudi</li>
+    </ul>
+
+`
+// createDressSection.classList.add('section ul li')
+mainContainer.appendChild(createDressSection);
+
+
+let dressLi = createDressSection.querySelectorAll('li');
+for(let li of dressLi){
+    li.style.listStyle = 'none'
+}

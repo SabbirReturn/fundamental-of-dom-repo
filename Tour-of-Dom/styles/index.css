@@ -6,3 +6,6 @@ li{
 .align{
     text-align: center;
 }
+section ul li{
+    /* list-style: none; */
+}
