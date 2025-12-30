@@ -43,6 +43,6 @@ let placeTitle = document.getElementById('places-title');
 // placeTitle.classList.remove('align')
 
 placeTitle.classList.add('align')
-placeTitle.classList.remove('align')
+// placeTitle.classList.remove('align')
 
 
