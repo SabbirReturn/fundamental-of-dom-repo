@@ -33,6 +33,7 @@ for(let conteiner of sectionConteiner){
     conteiner.style.border = '2px solid red';
     conteiner.style.borderRadius = ' 10px'
     conteiner.style.marginBottom = '5px';
+    // conteiner.style.backgroundColor = 'lightgray'
     conteiner.style.backgroundColor = 'lightgray'
 }
 
