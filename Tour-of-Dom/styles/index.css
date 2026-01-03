@@ -3,7 +3,10 @@ li{
     text-shadow: 0dvb;
 }
 
-.align{
+/* .align{
+    text-align: center;
+} */
+ .align{
     text-align: center;
 }
 section ul li{
