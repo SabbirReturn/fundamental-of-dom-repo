@@ -3,12 +3,9 @@ li{
     text-shadow: 0dvb;
 }
 
-/* .align{
+.align{
     text-align: center;
+}
+/* section ul li{
+    list-style: none;
 } */
- .align{
-    text-align: center;
-}
-section ul li{
-    /* list-style: none; */
-}
