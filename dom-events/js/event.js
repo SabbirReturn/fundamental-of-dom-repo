@@ -9,7 +9,7 @@ function makeYellow (){
     document.body.style.backgroundColor = 'yellow'
 }
 
-<<<<<<< HEAD
+
 // let purple = document.getElementById('makePurple');
 // purple.onclick = function (){
 //     document.body.style.backgroundColor= 'purple'
@@ -41,9 +41,8 @@ greenBtn.addEventListener('click', function(){
 document.getElementById('makeGoldenRod').addEventListener('click', function(){
     document.body.style.backgroundColor = 'goldenrod'
 })
-=======
-let purple = document.getElementById('makePurple');
-purple.onclick = function (){
-    document.body.style.backgroundColor= 'purple'
-}
->>>>>>> aaedd5bb6121739d5db77ae0cd25d26aaf564c1a
+
+// let purple = document.getElementById('makePurple');
+// purple.onclick = function (){
+//     document.body.style.backgroundColor= 'purple'
+// }
