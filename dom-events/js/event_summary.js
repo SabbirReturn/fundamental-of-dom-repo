@@ -11,3 +11,12 @@ document.getElementById('inputBtn').addEventListener('click', function(){
     display.innerText = inputText;
     inputField.value = '';
 })
+
+
+document.getElementById('pushBtn').addEventListener('click', function(){
+    let name = document.getElementById('firstName');
+    let nameText = name.value;
+    let set = document.getElementById('setName');
+    set.innerText = nameText;
+    name.value = '';
+})
