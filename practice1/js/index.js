@@ -13,4 +13,5 @@ let li = document.createElement('li');
 li.innerText = 'Dynamic';
 
 liCollection.appendChild(li);
+liCollection.appendChild(li);
 
