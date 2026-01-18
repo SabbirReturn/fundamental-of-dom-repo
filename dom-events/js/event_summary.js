@@ -16,6 +16,7 @@ document.getElementById('inputBtn').addEventListener('click', function(){
 document.getElementById('pushBtn').addEventListener('click', function(){
     let name = document.getElementById('firstName');
     // let nameText = name.value;
+    // let nameText = name.value;
     let nameText = name.value;
     let set = document.getElementById('setName');
     set.innerText = nameText;
