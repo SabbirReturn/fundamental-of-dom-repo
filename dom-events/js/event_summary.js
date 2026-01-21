@@ -22,3 +22,11 @@ document.getElementById('pushBtn').addEventListener('click', function(){
     set.innerText = nameText;
     name.value = '';
 })
+
+document.getElementById('update_next').addEventListener('click', function(){
+    let nextTextField = document.getElementById('text_next');
+    let nextValue = nextTextField.value;
+    let next = document.getElementById('next_default');
+    next.innerText = nextValue;
+    nextTextField.value = '';
+})
