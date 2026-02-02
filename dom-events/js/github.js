@@ -29,6 +29,10 @@ document.getElementById('textInput').addEventListener('keyup', function(event){
     }
 })
 
+// document.getElementById('deleteBtn').addEventListener('click', function(){
+//     let text = document.getElementById('defaultText');
+//     text.style.display= 'none';
+// })
 document.getElementById('deleteBtn').addEventListener('click', function(){
     let text = document.getElementById('defaultText');
     text.style.display= 'none';
